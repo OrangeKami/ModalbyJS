@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="modal.css">
+    
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <h1>Modal Effect</h1>
+    <section class="modal hidden">
+      <div class="flex">
+        <img
+          src="https://images.unsplash.com/photo-1665238076980-47731fc833b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+          width="50px"
+          height="50px"
+          alt="user"
+        />
+        <button class="btn-close">X</button>
+      </div>
+      <div>
+        <h3>Stay in touch</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut natus
+          alias ipsam, numquam laudantium provident rerum illum quam est quod.
+          Doloribus iusto vel doloremque labore quod maxime voluptas numquam
+          consequatur?
+        </p>
+      </div>
+      <input type="email" id="email" placeholder="example@test.com" />
+      <button class="btn">Submit</button>
+    </section>
+    <div class="overlay hidden"></div>
+    <button class="btn btn-open">Open Modal</button>
+    <script src="modal.js"></script>
+  </body>
+</html>
